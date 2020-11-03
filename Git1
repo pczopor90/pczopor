@@ -1,0 +1,19 @@
+git config -l
+user.name=pczopor
+user.mail=p.czopor90@gmail.com
+core.editor=nano
+mkdir pierwszerepoz 
+cd pierwszerepoz
+git init
+git status
+touch pierwszykod
+touch drugikod
+touch trzecikod
+mkdir zaleznosci
+cd zaleznosci/
+touch zaleznosci1
+touch zaleznosci2
+touch zaleznosci3
+cd..
+touch README
+git add --all
